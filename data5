@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Employee Management System</title>
+  <style>
+    /* CSS for positioning the logo */
+    .logo {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+    }
+    /* CSS for formatting the navigation menu */
+    .nav {
+      position: absolute;
+      top: 120px;
+      left: 10px;
+      width: 45%;
+    }
+    .nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    .nav li {
+      margin-bottom: 10px;
+    }
+    .nav a {
+      text-decoration: none;
+      color: black;
+    }
+    /* CSS for formatting the main content */
+    .main {
+      position: absolute;
+      top: 120px;
+      left: 55%;
+      width: 45%;
+    }
+    /* CSS for formatting the form */
+    form {
+      margin: 20px;
+    }
+    /* CSS for formatting the form labels */
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    /* CSS for formatting the submit and reset buttons */
+    input[type=submit], input[type=reset] {
+      margin-top: 10px;
+      padding: 5px 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="logo">
+    <img src="logo.png" alt="Company Logo">
+  </div>
+  <div class="nav">
+    <ul>
+      <li><a href="#onboarding">Onboarding Employee</a></li>
+      <li><a href="#employee-data">Employee Data Collection</a></li>
+    </ul>
+  </div>
+  <div class="main">
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name">
+      <br>
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob">
+      <br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+      <br>
+      <label for="experience">Experience:</label>
+      <input type="text" id="experience" name="experience">
+      <br>
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+    </form>
+  </div>
+</body>
+</html>
