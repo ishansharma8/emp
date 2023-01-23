@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Employee Management System</title>
+  <style>
+    /* CSS for positioning the logo */
+    .logo {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      width: 100px;
+      height: 100px;
+    }
+    /* CSS for formatting the navigation menu */
+    .nav {
+      position: absolute;
+      top: 120px;
+      left: 10px;
+    }
+    .nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    .nav li {
+      margin-bottom: 10px;
+    }
+    .nav a {
+      text-decoration: none;
+      color: black;
+    }
+    /* CSS for formatting the main content */
+    .main {
+      margin: 120px 0 0 130px;
+    }
+  </style>
+</head>
+<body>
+  <div class="logo">
+    <img src="logo.png" alt="Company Logo">
+  </div>
+  <div class="nav">
+    <ul>
+      <li><a href="#onboarding">Onboarding Employee</a></li>
+      <li><a href="#employee-data">Employee Data Collection</a></li>
+      <li><a href="#payroll-management">Payroll Management</a></li>
+      <li><a href="#attendance">Attendance Regularization</a></li>
+      <li><a href="#exit-form">Exit Form Feedback</a></li>
+    </ul>
+  </div>
+  <div class="main">
+    <!-- Content for Onboarding Employee goes here -->
+    <div id="onboarding">
+      <h1>Onboarding Employee</h1>
+      <!-- Form for Onboarding Employee goes here -->
+    </div>
+    <!-- Content for Employee Data Collection goes here -->
+    <div id="employee-data">
+      <h1>Employee Data Collection</h1>
+      <!-- Form for Employee Data Collection goes here -->
+    </div>
+    <!-- Content for Payroll Management goes here -->
+    <div id="payroll-management">
+      <h1>Payroll Management</h1>
+      <!-- Form for Payroll Management goes here -->
+    </div>
+    <!-- Content for Attendance Regularization goes here -->
+    <div id="attendance">
+      <h1>Attendance Regularization</h1>
+      <!-- Form for Attendance Regularization goes here -->
+    </div>
+    <!-- Content for Exit Form Feedback goes here -->
+    <div id="exit-form">
+      <h1>Exit Form Feedback</h1>
+      <!-- Form for Exit Form Feedback goes here -->
+    </div>
+  </div>
+</body>
+</html>
