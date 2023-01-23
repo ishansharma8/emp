@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Employee Information Form</title>
+  <style>
+    /* CSS for positioning the logo */
+    .logo {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    /* CSS for formatting the form */
+    form {
+      margin: 20px;
+    }
+
+    /* CSS for formatting the form labels */
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="logo">
+    <img src="logo.png" alt="Company Logo">
+  </div>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+    <br>
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob">
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+    <br>
+    <label for="address">Address:</label>
+    <textarea id="address" name="address"></textarea>
+    <br>
+    <label for="contact">Contact Number:</label>
+    <input type="tel" id="contact" name="contact">
+    <br>
+    <label for="department">Department:</label>
+    <input type="text" id="department" name="department">
+    <br>
+    <label for="designation">Designation:</label>
+    <input type="text" id="designation" name="designation">
+    <br>
+    <label for="reporting_officer">Reporting Officer:</label>
+    <input type="text" id="reporting_officer" name="reporting_officer">
+    <br>
+    <label for="skills">Skills:</label>
+    <textarea id="skills" name="skills"></textarea>
+    <br>
+    <label for="education">Education:</label>
+    <textarea id="education" name="education"></textarea>
+    <br>
+    <label for="experience">Experience:</label>
+    <textarea id="experience" name="experience"></textarea>
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
